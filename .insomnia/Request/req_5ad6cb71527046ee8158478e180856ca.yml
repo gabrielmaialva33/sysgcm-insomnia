@@ -1,0 +1,21 @@
+_id: req_5ad6cb71527046ee8158478e180856ca
+type: Request
+parentId: fld_2fd5278486b54a41bb144f594b2c22a6
+modified: 1608739387966
+created: 1608739384902
+url: "{{ _.base_url }}/enderecos/municipios"
+name: index
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1608739384902
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

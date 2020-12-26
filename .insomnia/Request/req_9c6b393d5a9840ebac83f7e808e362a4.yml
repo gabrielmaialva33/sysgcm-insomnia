@@ -1,0 +1,32 @@
+_id: req_9c6b393d5a9840ebac83f7e808e362a4
+type: Request
+parentId: fld_6d546257f4ea4b9da7ed18450da62565
+modified: 1609024400169
+created: 1609024351247
+url: "{{ _.base_url }}/test{{ _.base_url }}/"
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"": "",
+    	"": "",
+    	"": "",
+    	"": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2a651ff1d46d4b209d1e439d6ac04386
+authentication: {}
+metaSortKey: -1609024351247
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

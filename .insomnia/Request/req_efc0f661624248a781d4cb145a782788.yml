@@ -1,0 +1,21 @@
+_id: req_efc0f661624248a781d4cb145a782788
+type: Request
+parentId: fld_4895f98c18ec44e5a2850968b0c3855e
+modified: 1608747211243
+created: 1608747193537
+url: "{{ _.base_url }}/enderecos/bairros"
+name: index
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1608747193586
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
