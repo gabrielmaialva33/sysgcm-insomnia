@@ -1,7 +1,7 @@
 _id: req_42d0620228d34b3e83f2b5d21eecb387
 type: Request
 parentId: fld_eddb5eadb79245149fd54b8763da1d15
-modified: 1609000611552
+modified: 1609036357295
 created: 1608838887105
 url: "{{ _.base_url }}/gcms/create"
 name: create
@@ -21,7 +21,7 @@ body:
     		"15996601743",
     		"15996601745"
     	],
-    	"municipio_nascimento_id": "5cee4bd9-357a-4391-913f-77c0ae07e2cf",
+    	"municipio_nascimento_id": "9ad8df65-01ad-4a3c-87a1-266ba312a373",
     	"sexo": "MASCULINO",
     	"cutis": "BRANCO",
     	"tipo_sanguineo": "O+",
@@ -41,7 +41,7 @@ body:
     	"validade_cnh": "",
     	"observacao": "",
     	"bairro": "Vila São Mateus",
-    	"municipio_id": "5cee4bd9-357a-4391-913f-77c0ae07e2cf",
+    	"municipio_id": "9ad8df65-01ad-4a3c-87a1-266ba312a373",
     	"codigo_bairro": "",
     	"logradouro": "Rua Matheus do Valdo",
     	"numero": "524",
