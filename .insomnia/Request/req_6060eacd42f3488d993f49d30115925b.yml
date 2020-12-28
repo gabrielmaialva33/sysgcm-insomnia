@@ -1,25 +1,25 @@
-_id: req_42d0620228d34b3e83f2b5d21eecb387
+_id: req_6060eacd42f3488d993f49d30115925b
 type: Request
 parentId: fld_eddb5eadb79245149fd54b8763da1d15
-modified: 1609113794748
-created: 1608838887105
-url: "{{ _.base_url }}/gcms/create"
-name: create
+modified: 1609109034593
+created: 1609107581180
+url: "{{ _.base_url }}/gcms/update/55c58a33-8de2-4447-a835-054e37902b27"
+name: update
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
     	"nome": "Gabriel Maia Silva Moreira",
     	"rg": "586109274SP",
-    	"cpf": "38738734869",
+    	"cpf": "38738734868",
     	"data_nascimento": "1999-02-23",
     	"nome_mae": "Inêz Maia Silva Moreira",
     	"nome_pai": "Denis Maricato",
     	"telefone": [
-    		"15996601743",
-    		"15996601745"
+    		"15996601700",
+    		"15996600099"
     	],
     	"municipio_nascimento_id": "1f209f67-4a0a-4747-a280-27fc0ee2a687",
     	"sexo": "MASCULINO",
@@ -55,9 +55,9 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_19b8fb5b5dbb4542bbcf067ad736b958
+    id: pair_211ace8a592144db8fcab446645fbce8
 authentication: {}
-metaSortKey: -1609110373129
+metaSortKey: -1609107581180
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
