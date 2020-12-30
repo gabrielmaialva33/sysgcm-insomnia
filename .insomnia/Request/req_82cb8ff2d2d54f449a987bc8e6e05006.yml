@@ -1,16 +1,18 @@
 _id: req_82cb8ff2d2d54f449a987bc8e6e05006
 type: Request
 parentId: fld_eddb5eadb79245149fd54b8763da1d15
-modified: 1609114807021
+modified: 1609355333787
 created: 1609113165033
-url: "{{ _.base_url }}/gcms/show/7f857f3c-683d-435b-bbca-23d4a768fa79"
+url: "{{ _.base_url }}/gcms/show/81248076-2ce0-491c-802c-0281ebb2955e"
 name: show
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.auth_token }}"
 metaSortKey: -1609113165078
 isPrivate: false
 settingStoreCookies: true

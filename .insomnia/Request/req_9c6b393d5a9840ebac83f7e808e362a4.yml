@@ -1,7 +1,7 @@
 _id: req_9c6b393d5a9840ebac83f7e808e362a4
 type: Request
 parentId: fld_6d546257f4ea4b9da7ed18450da62565
-modified: 1609040382662
+modified: 1609354283252
 created: 1609024351247
 url: "{{ _.base_url }}/register"
 name: register
@@ -11,11 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"nome_usuario": "maia",
-    	"email": "gabriel@gabriel.com",
+    	"nome_usuario": "sara1234",
+    	"email": "sara@sara.com",
     	"password": "123456",
     	"password_confirmation": "123456",
-    	"keycode": "5BE38445"
+    	"keycode": "FC2A1DA6"
     }
 parameters: []
 headers:

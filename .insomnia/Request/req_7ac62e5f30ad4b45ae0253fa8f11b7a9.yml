@@ -1,7 +1,7 @@
 _id: req_7ac62e5f30ad4b45ae0253fa8f11b7a9
 type: Request
 parentId: fld_eddb5eadb79245149fd54b8763da1d15
-modified: 1609113732534
+modified: 1609355490841
 created: 1609113725955
 url: "{{ _.base_url }}/gcms/index"
 name: index
@@ -10,7 +10,9 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.auth_token }}"
 metaSortKey: -1609113725955
 isPrivate: false
 settingStoreCookies: true

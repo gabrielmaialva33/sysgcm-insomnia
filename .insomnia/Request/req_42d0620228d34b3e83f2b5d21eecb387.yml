@@ -1,7 +1,7 @@
 _id: req_42d0620228d34b3e83f2b5d21eecb387
 type: Request
 parentId: fld_eddb5eadb79245149fd54b8763da1d15
-modified: 1609113794748
+modified: 1609355496499
 created: 1608838887105
 url: "{{ _.base_url }}/gcms/create"
 name: create
@@ -11,52 +11,54 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"nome": "Gabriel Maia Silva Moreira",
-    	"rg": "586109274SP",
-    	"cpf": "38738734869",
-    	"data_nascimento": "1999-02-23",
-    	"nome_mae": "Inêz Maia Silva Moreira",
-    	"nome_pai": "Denis Maricato",
+    	"nome": "Sara Camila Silva",
+    	"rg": "269180564SP",
+    	"cpf": "06634094896",
+    	"data_nascimento": "1990-11-19",
+    	"nome_mae": "Daiane Rita Lúcia",
+    	"nome_pai": "Calebe Edson Pedro Silva",
     	"telefone": [
-    		"15996601743",
-    		"15996601745"
+    		"1535840598",
+    		"15999170195"
     	],
-    	"municipio_nascimento_id": "1f209f67-4a0a-4747-a280-27fc0ee2a687",
-    	"sexo": "MASCULINO",
-    	"cutis": "BRANCO",
-    	"tipo_sanguineo": "O+",
-    	"estado_civil": "SOLTEIRO",
+    	"municipio_nascimento_id": "95ed92bf-2109-4659-bb11-6bf92f336b71",
+    	"sexo": "FEMININO",
+    	"cutis": "PRETO",
+    	"tipo_sanguineo": "AB-",
+    	"estado_civil": "CASADO",
     	"profissao": [
     		"GCM",
     		"DEV"
     	],
     	"escolaridade": "SUPERIOR-INCOMPLETO",
-    	"nome_conjuge": "",
+    	"nome_conjuge": "Moreira",
     	"nome_filhos": [
+    		"Lúcia Rita Silva",
+    		"Pedro Silva"
     	],
-    	"titulo_eleitor": "",
-    	"zona_eleitoral": "",
-    	"cnh": "",
-    	"tipo_cnh": "",
-    	"validade_cnh": "",
+    	"titulo_eleitor": "645476870108",
+    	"zona_eleitoral": "024",
+    	"cnh": "36393337576",
+    	"tipo_cnh": "A-B",
+    	"validade_cnh": "2021-05-19",
     	"observacao": "",
-    	"codigo_bairro": "",
-    	"bairro": "Vila São Mateus",
-    	"municipio_id": "1f209f67-4a0a-4747-a280-27fc0ee2a687",
-    	"logradouro": "Rua Matheus do Valdo",
-    	"numero": "524",
-    	"complemento": "Perdo do Mercado",
-    	"cep": "18271844",
-    	"codigo_endereco": "",
-    	"nome_guerra": "Maia",
-    	"atribuicao": "COMANDANTE"
+    	"codigo_bairro": "1-01",
+    	"logradouro": "Rua São Pedro 2570",
+    	"numero": "151",
+    	"complemento": "Perto do Parquinho",
+    	"cep": "18460974",
+    	"nome_guerra": "Camila",
+    	"atribuicao": "OFICIAL",
+    	"role_name": "USER"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_19b8fb5b5dbb4542bbcf067ad736b958
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.auth_token }}"
 metaSortKey: -1609110373129
 isPrivate: false
 settingStoreCookies: true

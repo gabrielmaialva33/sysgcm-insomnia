@@ -1,9 +1,9 @@
 _id: req_6060eacd42f3488d993f49d30115925b
 type: Request
 parentId: fld_eddb5eadb79245149fd54b8763da1d15
-modified: 1609109034593
+modified: 1609355502080
 created: 1609107581180
-url: "{{ _.base_url }}/gcms/update/55c58a33-8de2-4447-a835-054e37902b27"
+url: "{{ _.base_url }}/gcms/update/03954a5b-7711-426a-86bc-1832c5c84e05"
 name: update
 description: ""
 method: PUT
@@ -11,52 +11,16 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"nome": "Gabriel Maia Silva Moreira",
-    	"rg": "586109274SP",
-    	"cpf": "38738734868",
-    	"data_nascimento": "1999-02-23",
-    	"nome_mae": "Inêz Maia Silva Moreira",
-    	"nome_pai": "Denis Maricato",
-    	"telefone": [
-    		"15996601700",
-    		"15996600099"
-    	],
-    	"municipio_nascimento_id": "1f209f67-4a0a-4747-a280-27fc0ee2a687",
-    	"sexo": "MASCULINO",
-    	"cutis": "BRANCO",
-    	"tipo_sanguineo": "O+",
-    	"estado_civil": "SOLTEIRO",
-    	"profissao": [
-    		"GCM",
-    		"DEV"
-    	],
-    	"escolaridade": "SUPERIOR-INCOMPLETO",
-    	"nome_conjuge": "",
-    	"nome_filhos": [
-    	],
-    	"titulo_eleitor": "",
-    	"zona_eleitoral": "",
-    	"cnh": "",
-    	"tipo_cnh": "",
-    	"validade_cnh": "",
-    	"observacao": "",
-    	"codigo_bairro": "",
-    	"bairro": "Vila São Mateus",
-    	"municipio_id": "1f209f67-4a0a-4747-a280-27fc0ee2a687",
-    	"logradouro": "Rua Matheus do Valdo",
-    	"numero": "524",
-    	"complemento": "Perdo do Mercado",
-    	"cep": "18271844",
-    	"codigo_endereco": "",
-    	"nome_guerra": "Maia",
-    	"atribuicao": "COMANDANTE"
+    	"nome": "Rafael Maia Silva Moreira"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_211ace8a592144db8fcab446645fbce8
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.auth_token }}"
 metaSortKey: -1609107581180
 isPrivate: false
 settingStoreCookies: true

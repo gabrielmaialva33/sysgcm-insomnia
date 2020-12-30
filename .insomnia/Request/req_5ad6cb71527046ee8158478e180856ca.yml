@@ -1,14 +1,22 @@
 _id: req_5ad6cb71527046ee8158478e180856ca
 type: Request
 parentId: fld_2fd5278486b54a41bb144f594b2c22a6
-modified: 1608739387966
+modified: 1609349282005
 created: 1608739384902
 url: "{{ _.base_url }}/enderecos/municipios"
 name: index
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_b995d7ed593c4bb4b305fffcc0dc0a03
+  - name: search
+    value: capão bonito
+    description: ""
+    id: pair_477534a4b8fa4bf69f10246e96276e15
 headers: []
 authentication: {}
 metaSortKey: -1608739384902

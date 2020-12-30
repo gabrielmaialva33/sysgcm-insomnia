@@ -1,7 +1,7 @@
 _id: req_82a69625d02d4a729a5f07bf52fc6e6f
 type: Request
 parentId: fld_eddb5eadb79245149fd54b8763da1d15
-modified: 1609114783020
+modified: 1609355506723
 created: 1609114771381
 url: "{{ _.base_url }}/gcms/delete/7f857f3c-683d-435b-bbca-23d4a768fa79"
 name: delete
@@ -10,7 +10,9 @@ method: DELETE
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.auth_token }}"
 metaSortKey: -1609107581130
 isPrivate: false
 settingStoreCookies: true

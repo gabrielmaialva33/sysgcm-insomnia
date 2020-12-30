@@ -1,11 +1,15 @@
 _id: env_de32663265baf34205aec9a5c1ffce0310099c74
 type: Environment
 parentId: wrk_c71cc085dff44cbe8a42a9c2024517cd
-modified: 1607615678703
+modified: 1609355284210
 created: 1607615678703
 name: Base Environment
-data: {}
-dataPropertyOrder: null
+data:
+  auth_token: "{% response 'body', 'req_d03320e18a2b459bbb90823a1b980c7b',
+    'b64::JC50b2tlbi50b2tlbg==::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - auth_token
 color: null
 isPrivate: false
 metaSortKey: 1607615678703
