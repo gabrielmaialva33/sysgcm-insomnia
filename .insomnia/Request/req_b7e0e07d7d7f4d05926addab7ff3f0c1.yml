@@ -1,7 +1,7 @@
 _id: req_b7e0e07d7d7f4d05926addab7ff3f0c1
 type: Request
 parentId: fld_0f757d64ad734a9a86bed9a27360bcb2
-modified: 1608692506342
+modified: 1609360747104
 created: 1608692472859
 url: "{{ _.base_url }}/enderecos/estados"
 name: index
@@ -10,7 +10,9 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.auth_token }}"
 metaSortKey: -1608692472859
 isPrivate: false
 settingStoreCookies: true

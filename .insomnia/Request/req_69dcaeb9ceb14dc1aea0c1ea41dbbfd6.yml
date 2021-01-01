@@ -1,0 +1,34 @@
+_id: req_69dcaeb9ceb14dc1aea0c1ea41dbbfd6
+type: Request
+parentId: fld_7b3f9dfcb27d47a2818391708b8bf84d
+modified: 1609385385896
+created: 1609380182106
+url: "{{ _.base_url }}/escalas/create"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data_inicio": "{% randomdate 'datetime', 'now', '', 1 %}",
+    	"data_fim": "{% randomdate 'datetime', 'future', '', 1 %}",
+    	"gcm_id": "5fccacbf-1da9-4a51-bf78-51650873c2b7",
+    	"observacao": "Escala GCM"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4691bec68b9f47a3b3f4695893d3ebca
+authentication:
+  type: bearer
+  token: "{{ _.auth_token }}"
+metaSortKey: -1609380182106
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

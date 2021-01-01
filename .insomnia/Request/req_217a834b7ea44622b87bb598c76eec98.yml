@@ -1,9 +1,9 @@
-_id: req_6060eacd42f3488d993f49d30115925b
+_id: req_217a834b7ea44622b87bb598c76eec98
 type: Request
-parentId: fld_c8a468eacfa74eea830b5d222ec37fea
-modified: 1609370336716
-created: 1609107581180
-url: "{{ _.base_url }}/gcms/update/03954a5b-7711-426a-86bc-1832c5c84e05"
+parentId: fld_4895f98c18ec44e5a2850968b0c3855e
+modified: 1609522385573
+created: 1609521406914
+url: "{{ _.base_url }}/bairros/update/58cb75c2-0500-45ea-b2c2-800cd2c46cb5"
 name: update
 description: ""
 method: PUT
@@ -11,17 +11,19 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"nome": "Rafael Maia Silva Moreira"
+    	"bairro": "Bairro Update Teste",
+    	"codigo_bairro": "6-10",
+    	"observacao_bairro": "Esse é uma teste de update de bairro."
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_211ace8a592144db8fcab446645fbce8
+    id: pair_b7b7495b711345d79b6a43227a48e2f2
 authentication:
   type: bearer
   token: "{{ _.auth_token }}"
-metaSortKey: -1609113725986.25
+metaSortKey: -1609470349476
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

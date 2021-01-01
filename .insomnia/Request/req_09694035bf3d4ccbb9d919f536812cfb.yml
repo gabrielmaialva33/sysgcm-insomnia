@@ -1,27 +1,29 @@
-_id: req_6060eacd42f3488d993f49d30115925b
+_id: req_09694035bf3d4ccbb9d919f536812cfb
 type: Request
-parentId: fld_c8a468eacfa74eea830b5d222ec37fea
-modified: 1609370336716
-created: 1609107581180
-url: "{{ _.base_url }}/gcms/update/03954a5b-7711-426a-86bc-1832c5c84e05"
-name: update
+parentId: fld_4895f98c18ec44e5a2850968b0c3855e
+modified: 1609521574995
+created: 1609470349526
+url: "{{ _.base_url }}/bairros/create"
+name: create
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"nome": "Rafael Maia Silva Moreira"
+    	"codigo_bairro": "6-09",
+    	"bairro": "Bairro Teste",
+    	"observacao": "Esse é um bairro teste."
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_211ace8a592144db8fcab446645fbce8
+    id: pair_ee9ddf3ed1274e569bafef4f26ac7c3f
 authentication:
   type: bearer
   token: "{{ _.auth_token }}"
-metaSortKey: -1609113725986.25
+metaSortKey: -1609470349526
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

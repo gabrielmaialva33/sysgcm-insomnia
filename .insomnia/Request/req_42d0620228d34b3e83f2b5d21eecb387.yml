@@ -1,7 +1,7 @@
 _id: req_42d0620228d34b3e83f2b5d21eecb387
 type: Request
-parentId: fld_eddb5eadb79245149fd54b8763da1d15
-modified: 1609355496499
+parentId: fld_c8a468eacfa74eea830b5d222ec37fea
+modified: 1609537754911
 created: 1608838887105
 url: "{{ _.base_url }}/gcms/create"
 name: create
@@ -21,7 +21,7 @@ body:
     		"1535840598",
     		"15999170195"
     	],
-    	"municipio_nascimento_id": "95ed92bf-2109-4659-bb11-6bf92f336b71",
+    	"municipio_nascimento_id": "3ad56be4-2443-4a5b-8f0c-1897de5ada37",
     	"sexo": "FEMININO",
     	"cutis": "PRETO",
     	"tipo_sanguineo": "AB-",
@@ -42,11 +42,17 @@ body:
     	"tipo_cnh": "A-B",
     	"validade_cnh": "2021-05-19",
     	"observacao": "",
+    	
+    	"municipio_itarare": false,
     	"codigo_bairro": "1-01",
+    	"bairro": "Bairro Teste",
+    	"municipio_id": "3ad56be4-2443-4a5b-8f0c-1897de5ada37",
+    	
     	"logradouro": "Rua São Pedro 2570",
     	"numero": "151",
     	"complemento": "Perto do Parquinho",
     	"cep": "18460974",
+    	
     	"nome_guerra": "Camila",
     	"atribuicao": "OFICIAL",
     	"role_name": "USER"
@@ -59,7 +65,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.auth_token }}"
-metaSortKey: -1609110373129
+metaSortKey: -1609113725989.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
