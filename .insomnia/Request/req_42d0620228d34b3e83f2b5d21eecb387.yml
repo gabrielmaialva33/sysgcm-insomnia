@@ -1,7 +1,7 @@
 _id: req_42d0620228d34b3e83f2b5d21eecb387
 type: Request
 parentId: fld_c8a468eacfa74eea830b5d222ec37fea
-modified: 1609537754911
+modified: 1609629378716
 created: 1608838887105
 url: "{{ _.base_url }}/gcms/create"
 name: create
@@ -21,7 +21,7 @@ body:
     		"1535840598",
     		"15999170195"
     	],
-    	"municipio_nascimento_id": "3ad56be4-2443-4a5b-8f0c-1897de5ada37",
+    	"municipio_nascimento_id": "6d57a7d1-0319-4749-9a3b-e11298acd29d",
     	"sexo": "FEMININO",
     	"cutis": "PRETO",
     	"tipo_sanguineo": "AB-",
@@ -43,10 +43,10 @@ body:
     	"validade_cnh": "2021-05-19",
     	"observacao": "",
     	
-    	"municipio_itarare": false,
+    	"municipio_itarare": true,
     	"codigo_bairro": "1-01",
-    	"bairro": "Bairro Teste",
-    	"municipio_id": "3ad56be4-2443-4a5b-8f0c-1897de5ada37",
+    	"bairro": "",
+    	"municipio_id": "",
     	
     	"logradouro": "Rua São Pedro 2570",
     	"numero": "151",

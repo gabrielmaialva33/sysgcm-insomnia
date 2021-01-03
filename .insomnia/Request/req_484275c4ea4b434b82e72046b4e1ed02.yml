@@ -1,9 +1,9 @@
-_id: req_7ac62e5f30ad4b45ae0253fa8f11b7a9
+_id: req_484275c4ea4b434b82e72046b4e1ed02
 type: Request
-parentId: fld_c8a468eacfa74eea830b5d222ec37fea
-modified: 1609640852572
-created: 1609113725955
-url: "{{ _.base_url }}/gcms/index"
+parentId: fld_4bb71e55e8434f28a60c22d12f0b394f
+modified: 1609641274378
+created: 1609630845850
+url: "{{ _.base_url }}/enderecos/index"
 name: index
 description: ""
 method: GET
@@ -12,16 +12,12 @@ parameters:
   - name: search
     value: ""
     description: ""
-    id: pair_af3f952e570d42fe8ca5f3316eda2d47
-  - name: ""
-    value: ""
-    description: ""
-    id: pair_9326b209acd64684bd2d1f7f6e90046b
+    id: pair_45f8b041f6bd4b509ae6d70efba44829
 headers: []
 authentication:
   type: bearer
   token: "{{ _.auth_token }}"
-metaSortKey: -1609113725992.5
+metaSortKey: -1609630845850
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

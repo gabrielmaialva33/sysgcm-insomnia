@@ -1,9 +1,9 @@
-_id: req_6060eacd42f3488d993f49d30115925b
+_id: req_e481312ae2a2402cab77f14cb137d369
 type: Request
-parentId: fld_c8a468eacfa74eea830b5d222ec37fea
-modified: 1609645927341
-created: 1609107581180
-url: "{{ _.base_url }}/gcms/update/85c246c1-93b1-4cc0-9fa1-a762e991d21c"
+parentId: fld_4bb71e55e8434f28a60c22d12f0b394f
+modified: 1609643998055
+created: 1609643945473
+url: "{{ _.base_url }}/enderecos/update/"
 name: update
 description: ""
 method: PUT
@@ -11,17 +11,23 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"nome": "Rafael Maia Silva Moreira"
+    	"": "",
+    	"": "",
+    	"": "",
+    	"": "",
+    	"": "",
+    	"": "",
+    	"": ""
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_211ace8a592144db8fcab446645fbce8
+    id: pair_e79c9601fd644c9eaab4871a3a2aa949
 authentication:
   type: bearer
   token: "{{ _.auth_token }}"
-metaSortKey: -1609113725986.25
+metaSortKey: -1609643945473
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

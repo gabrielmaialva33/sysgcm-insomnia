@@ -1,0 +1,38 @@
+_id: req_5c99ee2e50c8483a8524060c508ed83a
+type: Request
+parentId: fld_4bb71e55e8434f28a60c22d12f0b394f
+modified: 1609630872497
+created: 1609629435924
+url: "{{ _.base_url }}/enderecos/create"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"logradouro": "Rua Teste do teste",
+    	"numero": "666",
+    	"complemento": "Perto do Teste",
+    	"cep": "00000000",
+    	"nome_local": "Local Teste",
+    	"codigo_endereco": "1-01",
+    	"observacao": "Esse é um local teste",
+    	"codigo_bairro": "1-01"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7526e37176a44e07bb85790ec0955e03
+authentication:
+  type: bearer
+  token: "{{ _.auth_token }}"
+metaSortKey: -1609629435924
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
